@@ -6,7 +6,7 @@ echo "安装mosdns"
 echo "~~~~~~~~~~"
 echo "下载依赖……"
 apt update
-apt install wget git unzip pip -y
+apt install wget git unzip -y
 echo "克隆库……"
 git clone https://github.com/allanchen2019/mosdns-debian-install.git /opt/mosdns
 chmod 777 -R /opt/mosdns
