@@ -9,6 +9,14 @@
 
 有关更多详细信息，请参阅[此仓库](https://github.com/allanchen2019/ospf-over-wireguard)。
 
+###在开始之前，我们将更新计算机：
+```
+apt update
+```
+###然后，我们将安装 Curl 包，这将允许我们下载安装程序：
+```
+apt install curl -y
+```
 ### 独立安装 (amd64 & arm64):
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/SwrodKing/mosdns-debian-install/v5/AutoSetup.sh)
