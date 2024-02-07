@@ -58,4 +58,4 @@ plugins:
   - type: udp_server
     args:
       entry: main_sequence
-      listen: :53
+      listen: :5353
