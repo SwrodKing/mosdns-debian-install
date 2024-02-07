@@ -11,7 +11,7 @@
 
 ### 独立安装 (amd64 & arm64):
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/allanchen2019/mosdns-debian-install/v5/AutoSetup.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SwrodKing/mosdns-debian-install/v5/AutoSetup.sh)
 ```
 
 ### 可选：每天7:00自动更新各种列表，`crontab -e` 后添加：
@@ -23,16 +23,16 @@ bash <(curl -Ls https://raw.githubusercontent.com/allanchen2019/mosdns-debian-in
 
 ### 更新资源文件:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/allanchen2019/mosdns-debian-install/v5/update-geo.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SwrodKing/mosdns-debian-install/v5/update-geo.sh)
 ```
 
 ### 只更新可执行二进制:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/allanchen2019/mosdns-debian-install/v5/update-bin.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SwrodKing/mosdns-debian-install/v5/update-bin.sh)
 ```
 ### 卸载:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/allanchen2019/mosdns-debian-install/v5/uninstall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SwrodKing/mosdns-debian-install/v5/uninstall.sh)
 ```
 
 ### 如不能正常安装，请先重置DNS:
