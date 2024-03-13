@@ -13,7 +13,8 @@ rm -rf /opt/mosdns
 echo "重置DNS………………"
 rm -rf /etc/resolv.conf
 cat << EOF >/etc/resolv.conf
-nameserver 1.1.1.1
+domain local
+nameserver 233.5.5.5
 nameserver 8.8.8.8
 EOF
 
